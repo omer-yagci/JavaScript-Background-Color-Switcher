@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  background-color: #f3f3f3;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+.container {
+  text-align: center;
+  background-color: lightblue;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border: solid black 2px;
+  display: inline-block;
+  border-radius: 50%;
+}
+.button:hover {
+  cursor: pointer;
+  transform: scale(0.99);
+}
+
+#grey {
+  background: grey;
+}
+
+#white {
+  background: white;
+}
+#blue {
+  background: blue;
+}
+#yellow {
+  background: yellow;
+}
